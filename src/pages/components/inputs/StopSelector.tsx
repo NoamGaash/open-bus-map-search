@@ -1,7 +1,7 @@
 import { formatted, TEXTS } from 'src/resources/texts'
 import React from 'react'
 import { BusStop } from 'src/model/busStop'
-import SelectWithOptions from 'src/pages/components/SelectWithOptionts'
+import SelectWithOptions from 'src/pages/components/inputs/SelectWithOptionts'
 
 type StopSelectorProps = {
   stops: BusStop[]

@@ -1,7 +1,7 @@
 import { formatted, TEXTS } from 'src/resources/texts'
 import React from 'react'
 import { BusRoute } from 'src/model/busRoute'
-import SelectWithOptions from 'src/pages/components/SelectWithOptionts'
+import SelectWithOptions from 'src/pages/components/inputs/SelectWithOptionts'
 
 type RouteSelectorProps = {
   routes: BusRoute[]

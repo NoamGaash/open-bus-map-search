@@ -1,6 +1,6 @@
 import React, { useCallback, useContext, useEffect, useMemo, useState } from 'react'
-import LineNumberSelector from 'src/pages/components/LineSelector'
-import OperatorSelector from 'src/pages/components/OperatorSelector'
+import LineNumberSelector from 'src/pages/components/inputs/LineSelector'
+import OperatorSelector from 'src/pages/components/inputs/OperatorSelector'
 import { Row } from 'src/pages/components/Row'
 import { MARGIN_MEDIUM } from 'src/resources/sizes'
 import styled from 'styled-components'
@@ -9,11 +9,11 @@ import {
   getRoutesAsync,
   getStopsForRouteAsync,
 } from 'src/api/gtfsService'
-import RouteSelector from 'src/pages/components/RouteSelector'
-import DateTimePicker from 'src/pages/components/DateTimePicker'
+import RouteSelector from 'src/pages/components/inputs/RouteSelector'
+import DateTimePicker from 'src/pages/components/inputs/DateTimePicker'
 import { Label } from 'src/pages/components/Label'
 import { TEXTS } from 'src/resources/texts'
-import StopSelector from 'src/pages/components/StopSelector'
+import StopSelector from 'src/pages/components/inputs/StopSelector'
 import { Spin } from 'antd'
 import { getSiriStopHitTimesAsync } from 'src/api/siriService'
 import { TimelineBoard } from 'src/pages/components/timeline/TimelineBoard'
